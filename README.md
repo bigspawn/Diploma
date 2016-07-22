@@ -1,2 +1,2 @@
 # Diploma
-Diploma project
+Diploma project of messages application
