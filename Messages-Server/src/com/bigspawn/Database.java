@@ -36,7 +36,7 @@ public class Database {
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             document = documentBuilder.parse(dataFile);
             document.getDocumentElement().normalize();
-            return false;
+            return true;
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
             return false;
